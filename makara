@@ -1,5 +1,5 @@
 server {
-    server_name makarablogtest.duckdns.org www.makarablogtest.duckdns.org;
+    server_name  makarakubernetes.duckdns.org www.makarakubernetes.duckdns.org ;
 
     location = /favicon.ico { access_log off; log_not_found off; }
 

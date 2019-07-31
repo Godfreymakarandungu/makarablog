@@ -4,10 +4,10 @@ server {
     location = /favicon.ico { access_log off; log_not_found off; }
 
     location /static/ {
-            root /home/godfreymakarandungu/site/makarablog;
+            root /home/godfreymakarandungu/makarablog;
     }
 
     location / {
             include proxy_params;
-            proxy_pass http://unix:/home/godfreymakarandungu/site/makarablog/makarablog.sock;
+            proxy_pass http://unix:/home/godfreymakarandungu/makarablog/makarablog.sock;
     }
